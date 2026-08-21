@@ -1,0 +1,83 @@
+Setup Instructions for VS Code:
+1. Create a new Python file:
+Open VS Code
+
+Create a new file and save it as image_enhancer.py
+
+Paste the code above
+
+2. Install required packages:
+Open VS Code terminal (Ctrl + `) and run:
+
+bash
+pip install pillow opencv-python numpy
+3. Run the application:
+bash
+python image_enhancer.py
+Features Included:
+Basic Enhancements:
+Brightness adjustment
+
+Contrast control
+
+Sharpness enhancement
+
+Saturation adjustment
+
+Noise reduction
+
+AI-Powered Features:
+Super Resolution (2x upscaling)
+
+Detail enhancement
+
+Color correction
+
+Low-light enhancement
+
+Face enhancement placeholder
+
+Tools:
+Image upload (JPG, PNG, BMP, TIFF)
+
+Real-time preview
+
+Reset to original
+
+Save enhanced images
+
+Resolution scaling
+
+
+VS Code Tips:
+Create a virtual environment:
+
+bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+Create requirements.txt:
+
+text
+pillow==10.0.0
+opencv-python==4.8.1
+numpy==1.24.3
+Keyboard shortcuts:
+
+F5 to run in debug mode
+
+Ctrl + F5 to run without debugging
+
+Ctrl + S to save your changes
+
+Troubleshooting:
+If you encounter issues:
+
+Make sure Python is added to PATH
+
+Update pip: python -m pip install --upgrade pip
+
+Install Microsoft C++ Build Tools if getting compilation errors
+
+The tool provides a user-friendly GUI and basic image enhancement capabilities. You can extend it further by adding more advanced AI models or filters as needed!
+
